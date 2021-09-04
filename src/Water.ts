@@ -6,8 +6,4 @@ export default class Water extends Item {
     this.description = description
     this.price = price
   }
-
-  getTax (): number {
-    return 0
-  }
 }
