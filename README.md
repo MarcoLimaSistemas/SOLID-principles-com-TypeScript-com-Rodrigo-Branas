@@ -1,7 +1,7 @@
 # SOLID-principles-com-TypeScript-com-Rodrigo-Branas
 
 
-Aplicaçaõ dos principios do SOLID 
+Aplicação dos princípios do SOLID 
 
 ### Instação:
 
