@@ -19,4 +19,13 @@ export default class Order {
 
         return total;
     }
+
+    getTaxes() {
+        let taxes = 0
+        for (const item of this.items) {
+            taxes += item.getTax();
+        }
+
+        return taxes;
+    }
 }

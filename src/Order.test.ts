@@ -19,7 +19,7 @@ test('Deve criar um produto e calcular as taxas', () => {
   order.addItem(new Beer('Brahma', 10)); 
   order.addItem(new Water('Crystal', 1));
   // when
-  const total = order.getTotal();
+  const total = order.getTaxes();
   // then
-  expect(total).toBe(11);
+  expect(total).toBe(10);
 });
